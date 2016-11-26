@@ -13,6 +13,7 @@
 #include <iostream>
 #include <iterator>
 #include <random>
+#include <stdexcept>
 
 // Constructor for a UNDEFINED card. Needed for if the client chooses to draw
 // from the deck in Crazy Eight's.
@@ -66,7 +67,7 @@ bool operator<(const Card& a, const Card& b)
 
 bool operator>(const Card& a, const Card& b)
 {
-	return !(a < b);	
+	return !(a < b);
 }
 
 // Allows for the '==' comparison of two Card objects.
