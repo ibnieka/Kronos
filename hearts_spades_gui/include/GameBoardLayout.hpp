@@ -19,7 +19,10 @@ class GameBoardLayout : public wxBoxSizer
     wxStaticText* m_userText;
     std::vector<wxStaticBitmap*> m_center_cards;
     std::vector<wxStaticBitmap*> m_player_hand;
+<<<<<<< HEAD
 		//wxStaticText* m_userText;
+=======
+>>>>>>> refs/remotes/trevorjewkes/master
 };
 
 #endif /* ifndef GAMEBOARDLAYOUT_HPP */
